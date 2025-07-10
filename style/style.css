@@ -87,3 +87,43 @@ body{
 .action img{
   border-radius: 50px;
 }
+
+/* Productive User Section */
+
+.productive{
+  width: 80%;
+  margin: 120px auto 0;
+  background-color: rgba(78, 71, 255, 0.1);
+  padding: 50px 80px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.productive h1{
+  font-size: 38px;
+  font-weight: 700;
+  color: #252432;
+  padding-bottom: 40px;
+}
+
+.productive div{
+  display: flex;
+  justify-content: space-around;
+}
+
+.productive div div{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.productive div div h3{
+  font-size: 80px;
+  font-weight: 700;
+  color: #4E47FF;
+}
+
+.productive div div p{
+  font-size: 20px;
+  column-rule: rgba(0, 0, 0, 0.5);
+}
