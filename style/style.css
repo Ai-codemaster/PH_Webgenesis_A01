@@ -47,3 +47,16 @@ body{
   background-color: #4d47ffbe;
   transform: scale(1.05);
 }
+
+.header{
+  background-image: url('../Assets/Hero-bg.png');
+  text-align: center;
+  padding-bottom: 160px;
+}
+
+.header h1{
+  margin: 160px auto 40px;
+  color: #252432;
+  font-size: 65px;
+  font-weight: 700;
+}
