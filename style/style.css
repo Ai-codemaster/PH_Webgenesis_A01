@@ -189,3 +189,36 @@ body{
   font-size: 14px;
   line-height: 20px;
 }
+
+/* Ready To Focus Section */
+
+.focus{
+  width: 80%;
+  margin: 160px auto 0;
+  padding: 70px 150px;
+  text-align: center;
+  border-radius: 20px;
+  background-color: white;
+}
+
+.focus h1{
+  font-size: 50px;
+  font-weight: 700;
+  padding-bottom: 25px;
+  color: #000000;
+}
+
+.focus p{
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.5);
+  padding-bottom: 25px;
+}
+
+.focus button{
+  margin-bottom: 25px;
+  padding: 15px 30px;
+}
+
+.focus div img{
+  border-radius: 50px;
+}
