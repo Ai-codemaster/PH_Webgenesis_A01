@@ -222,3 +222,79 @@ body{
 .focus div img{
   border-radius: 50px;
 }
+
+/* From Section */
+
+.from{
+  width: 80%;
+  margin: 100px auto 0;
+  padding: 70px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.from h1{
+  font-size: 100px;
+  font-weight: 700;
+  color: #000000;
+}
+
+.from h1, .from form{
+  width: 50%  ;
+}
+
+.from form{
+  display: flex;
+  flex-direction: column;
+  margin-left: 10%;
+}
+
+.from label{
+  color: #000000;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.from input, textarea{
+  padding: 30px;
+  border: 1px solid #d6dded;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+
+.from input:hover{
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.from input:focus{
+  border: 1px solid #d6d6d6;
+  outline: none;
+}
+
+.from input::placeholder{
+  font-size: 18px;
+}
+.from textarea:hover{
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.from textarea:focus{
+  border: 1px solid #d6d6d6;
+  outline: none;
+}
+
+.from textarea::placeholder{
+  font-size: 18px;
+}
+
+.from textarea{
+  height: 150px;
+}
+
+.from button{
+  padding: 20px 0;
+}
